@@ -26,4 +26,9 @@ class LoginModel extends conexao
             return ['status' => 401, 'message' => 'login e senha inválidos'];
         }
     }
+
+    public function recuperarSenha($email)
+    {
+        
+    }
 }
